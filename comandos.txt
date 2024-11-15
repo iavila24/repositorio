@@ -1,0 +1,46 @@
+    1  pwd
+    2  cd Desktop
+    3  ls
+    4  ls -l
+    5  mkdir repositorio
+    6  cd repositorio/
+    7  code .
+    8  pwd
+    9  ls
+   10  cd Desktop
+   11  ls
+   12  cd repositorio
+   13  ls
+   14  pwd
+   15  code .
+   16  ls
+   17  git init
+   18  ls 
+   19  ls -a
+   20  ls -al
+   21  git status
+   22  git restore A.txt
+   23  git status
+   24  git add A.txt
+   25  git status
+   26  git commit -m "Second commit"
+   27  git log --oneline
+   28  git status
+   29  git add A.txt
+   30  git commit -m "Third commit"
+   31  git log --oneline
+   32  git status
+   33  git add A.txt
+   34  git status
+   35  git commit -m "Four commit" 
+   36  git log --oneline
+   37  git checkout 096efb4
+   38  git status
+   39  git checkout main
+   40  git checkout master
+   41  git log --oneline
+   42  git branch -M main
+   43  git remote add origin https://github.com/iavila24/repositorio.git
+   44  git push -u origin main
+   45  history
+   46  history > comandos.txt
